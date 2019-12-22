@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Video2_PostRequest {
 	
-	@Test
+	//@Test
 	public void testPostReq() {
 		given().
 			headers("AppKey","Key-value").

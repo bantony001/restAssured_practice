@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restAssured_Sheetal.Video9b_RequestSpecBuilder">
+      <class name="restAssured_Sheetal.Video14_Parser">
         <methods>
-          <include name="setUp"/>
-          <include name="testResponse2"/>
-          <include name="testResponse1"/>
+          <include name="testDefaultParser2"/>
         </methods>
-      </class> <!-- restAssured_Sheetal.Video9b_RequestSpecBuilder -->
+      </class> <!-- restAssured_Sheetal.Video14_Parser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

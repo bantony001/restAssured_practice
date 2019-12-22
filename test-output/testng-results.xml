@@ -2,20 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3541" started-at="2019-12-21T19:01:56 IST" finished-at="2019-12-21T19:02:00 IST">
+  <suite name="Default suite" duration-ms="1672" started-at="2019-12-22T10:01:26 IST" finished-at="2019-12-22T10:01:28 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3541" started-at="2019-12-21T19:01:56 IST" finished-at="2019-12-21T19:02:00 IST">
-      <class name="restAssured_Sheetal.Video12_HandlingSSL_TLS">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:restAssured_Sheetal.Video12_HandlingSSL_TLS@22a67b4]" name="setUp" is-config="true" duration-ms="8" started-at="2019-12-21T19:01:56 IST" finished-at="2019-12-21T19:01:56 IST">
+    <test name="Default test" duration-ms="1672" started-at="2019-12-22T10:01:26 IST" finished-at="2019-12-22T10:01:28 IST">
+      <class name="restAssured_Sheetal.Video15_BasicAndDigestiveAuthentications">
+        <test-method status="PASS" signature="testBasicAuthentication()[pri:0, instance:restAssured_Sheetal.Video15_BasicAndDigestiveAuthentications@cd2dae5]" name="testBasicAuthentication" duration-ms="1587" started-at="2019-12-22T10:01:26 IST" finished-at="2019-12-22T10:01:28 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:restAssured_Sheetal.Video12_HandlingSSL_TLS@22a67b4]" name="test2" duration-ms="3503" started-at="2019-12-21T19:01:56 IST" finished-at="2019-12-21T19:02:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- restAssured_Sheetal.Video12_HandlingSSL_TLS -->
+        </test-method> <!-- testBasicAuthentication -->
+      </class> <!-- restAssured_Sheetal.Video15_BasicAndDigestiveAuthentications -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

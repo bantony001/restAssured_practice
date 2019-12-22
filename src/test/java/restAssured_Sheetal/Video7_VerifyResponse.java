@@ -66,17 +66,17 @@ public class Video7_VerifyResponse {
 	 */
 	//@Test
 	public void testBodyParametersInResponse() {
-		/*given().
+		given().
 			get("http://jsonplaceholder.typicode.com/photos/1").
 		then().
 			body("thumbnailurl", new ResponseAwareMatcher<Response>()  {
 				public Matcher<?> matcher(Response response) {
 					return equalTo("https://via.placeholder.com/150/92c952");
 				}
-		});*/
+		});
 		
-		//With Java 8 lambda expression
-		given().get("http://jsonplaceholder.typicode.com/photos/1").then().body("thumbnailUrl", response -> equalTo("https://via.placeholder.com/150/92c952"));
+		//With Java 8 lambda expression, we can use the below command instead of the above.
+		//given().get("http://jsonplaceholder.typicode.com/photos/1").then().body("thumbnailUrl", response -> equalTo("https://via.placeholder.com/150/92c952"));
 
 		given().get("http://jsonplaceholder.typicode.com/photos/1").then().body("thumbnailUrl", endsWith("92c952"));		
 	}
